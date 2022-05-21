@@ -23,5 +23,6 @@
 // let nbr = summary(5, 6);
 // console.log(nbr);
 
-const modal = document.querySelector('.modal');
-modal.classList.add('show');
+// const modal = document.querySelector('.modal');
+// modal.classList.add('show');
+
