@@ -81,8 +81,8 @@ h2 {
 }
 
 .promo_btn {
-    color: #FFFFFF;
     display: block;
+    color: #FFFFFF;
     width: 313px;
     height: 72px;
     left: 805px;
@@ -117,4 +117,51 @@ h2 {
     display: block;
     margin: 0 auto;
     margin-top: 5px;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.modal_text {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 24px;
+    margin-top: 80px;
+}
+
+.show {
+    display: block;
+}
+
+.true_btn {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 24px;
+}
+
+.false_btn {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 24px;
+    top: 60%;
+    left: 45%;
 }
