@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="overlay"></div>
+
     <section class="promo">
         <div class="container">
             <div class="logo">
@@ -159,16 +161,20 @@
         </div>
     </section>
 
-    <footer>
-        <div class="footer_text">Служба поддержки  |  Политика конфиденциальности <br><br>Позвоните нам 8-800-555-01-21</div>
+    <footer class="footer">
+        <div class="footer_links">
+            <span class="footer_link">Служба поддержки  |  Политика конфиденциальности</span>
+            <span class="footer_link">Позвоните нам 8-800-555-01-21</span>
+        </div>
     </footer>
-    <!-- <section class="modal">
+
+    <section class="modal">
 
         <div class="modal_title">Подтвердите возраст</div>
 
-        <button onclick="hide" class="true_btn">Да</button>
-        <button onclick="window.location.href = 'https://disney.ru' ; " class="false_btn">Еще не совсем...</button>
-    </section> -->
+        <button id="close" class="true_btn" >Да</button>
+        <button id="change_clr" class="false_btn">Еще не совсем...</button>
+    </section>
 
     <script src="js/index.js"></script>
 </body>
